@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym.Fit</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span>Gym</span>Fit</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarr"
+          aria-controls="navbarr"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarr">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">Trainers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#prices">Prices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home">
+      <video autoplay muted loop id="myvideo">
+        <source src="images/gym.mp4" type="video/mp4" />
+      </video>
+
+      <div class="form-box">
+        <div class="header-text">LogIn</div>
+        <input type="text" id="username" placeholder="email" />
+        <input type="password" id="pass" placeholder="password" />
+        <button id="login">Log In</button>
+        <button id="signup" class="bg-primary text-white">or Sign Up</button>
+      </div>
+
+      <div class="content">
+        <h1><span>Gym</span>Fit</h1>
+        <b>
+          <p>
+            <span>NOW</span> is the time.<span>NOW</span> you should start.<span
+              >NOW</span
+            >
+            you can do it.
+          </p>
+        </b>
+      </div>
+    </section>
+
+    <section class="about-us" id="about-us">
+        <h2>About us</h2>
+      <div class="grid-container">
+        
+        <img src="images/gym00.jpg" alt="gym image" class="imgg">
+        <p class="about-gym">Introducing our state-of-the-art Gym Fit, where fitness meets innovation! Step into a world where cutting-edge equipment, expert guidance, and a vibrant atmosphere converge to redefine your fitness journey. Our gym is meticulously designed to cater to fitness enthusiasts of all levels, from beginners to seasoned athletes.
+
+            Feel the energy as you walk into our spacious and modern facility, equipped with the latest in cardiovascular and strength training machines. Immerse yourself in an environment that inspires motivation and dedication, with well-designed workout zones that cater to various fitness goals.
+            
+            Our team of certified trainers is committed to helping you achieve your fitness aspirations. Whether you're aiming to build muscle, improve cardiovascular health, or enhance flexibility, our knowledgeable trainers are here to guide you every step of the way. Personalized workout plans, expert advice, and ongoing support create a holistic approach to fitness that ensures you reach your goals efficiently and safely.
+            
+            At Gym Fit, we understand that fitness is not just about the physical aspect but also about mental well-being. That's why we offer a range of fitness classes, including yoga, Pilates, and group workouts, providing a diverse and engaging experience for our members.
+            
+            </p>
+        
+      </div>
+
+      <div class="heading"></div>
+
+      <div class="cards-wrapper">
+        <div class="card">
+            <img src="images/circle99.jpg" class="image-top">
+            <img src="images/img1.jpeg" class="profile-image">
+            <h1 class="fullname">Jane Smith</h1>
+            <p class="about-me">"Meet Jane, our Iron Core Guru, whose passion for strength training and core development is unmatched. Get ready to sculpt your physique"</p>
+        </div>
+
+        <div class="card">
+            <img src="images/circle01.jpg" class="image-top">
+            <img src="images/img2.jpeg" class="profile-image">
+            <h1 class="fullname">Michael Brown</h1>
+            <p class="about-me">"If you're looking to elevate your cardiovascular fitness, Michael is your go-to guy. Known as the Cardio King, he's a certified fitness enthusiast."</p>
+        </div>
+
+        <div class="card">
+            <img src="images/circle03.jpg" class="image-top">
+            <img src="images/circle33.jpg" class="profile-image">
+            <h1 class="fullname">Helen Doe</h1>
+            <p class="about-me">"Unwind and find your balance with Helen, our Zen Warrior. Helen specializes in fostering a mind-body connection."</p>
+        </div>
+    </div>
+
+
+    </section>
+
+    <section class="prices" id="prices">
+
+      <h2 class="title">OUR PRICING PLAN</h2>
+
+      <div class="panel pricing-table">
+
+        <div class="pricing-plan">
+            <!-- <img src="images/loggo.png" alt="" class="pricing-img"> -->
+            <h2 class="pricing-header">FlexFit 30</h2>
+            <ul class="pricing-features">
+                <li class="pricing-features-item">Valid for 30 days</li>
+                <li class="pricing-features-item">Personal Trainer included</li>
+            </ul>
+            <span class="pricing-price">$100</span>
+            <a href="#/" class="pricing-button">GET STARTED</a>
+        </div>
+
+        <div class="pricing-plan">
+            <!-- <img src="images/loggo2.png" alt="" class="pricing-img"> -->
+            <h2 class="pricing-header">PowerPulse 180</h2>
+            <ul class="pricing-features">
+                <li class="pricing-features-item">Valid for 180 days</li>
+                <li class="pricing-features-item">Personal Trainer included</li>
+            </ul>
+            <span class="pricing-price">$450</span>
+            <a href="#/" class="pricing-button is-featured">GET STARTED</a>
+        </div>
+
+        <div class="pricing-plan">
+            <!-- <img src="images/loggo3.png" alt="" class="pricing-img"> -->
+            <h2 class="pricing-header">EliteFit 365</h2>
+            <ul class="pricing-features">
+                <li class="pricing-features-item">Valid for 365 days</li>
+                <li class="pricing-features-item">Personal Trainer included</li>
+            </ul>
+            <span class="pricing-price">$780</span>
+            <a href="#/" class="pricing-button">GET STARTED</a>
+        </div>
+
+    </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>CONTACT US</h2>
+      <!-- <p>
+        At GymFit, we are dedicated to assisting you on your fitness journey. Whether you have inquiries, need guidance, or simply want to connect with us, our Contact section is here to provide the support you deserve. Feel free to reach out to our knowledgeable and friendly team using the options below:</p> -->
+
+<p class="details">Customer Support Email: support@GymFit.com </p>
+<!-- <p>Our responsive email support team is ready to answer any questions you may have regarding memberships, classes, or general inquiries. Expect a prompt and detailed response to assist you on your fitness path.</p> -->
+
+<p class="details">Phone Support: +40727286543 </p>
+<!-- <p>For immediate assistance, give us a call at +40727286543. Our customer service representatives are available during business hours to address your concerns, help you with membership details, or provide guidance on the best fitness programs for your needs.</p> -->
+
+<p class="details">Visit Us In-Person: Splaiul Independentei 62</p>
+<!-- <p>We welcome you to drop by our gym located at Splaiul Independentei 62. Our staff is available on-site to provide in-person assistance, tour our facilities, and guide you through the process of achieving your fitness goals.</p>
+
+<p>Connect with GymFit today, and let us be your partner in health and wellness. Your journey to a healthier, fitter lifestyle starts here!</p> -->
+      
+    </section>
+
+    <footer>
+      <p>@2024 GymFit. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
